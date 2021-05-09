@@ -1,0 +1,63 @@
+buildscript {
+    repositories {
+        mavenLocal()
+        mavenCentral()
+    }
+    dependencies {
+        classpath("net.serenity-bdd:serenity-gradle-plugin:2.4.24")     
+        classpath("net.serenity-bdd:serenity-single-page-report:2.1.4")
+    }
+}
+
+plugins {
+    id 'java'
+    id 'maven-publish'
+}
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+apply plugin: 'net.serenity-bdd.aggregator'     
+
+test { 
+    systemProperty "cucumber.options", System.getProperty("cucumber.options") 
+} 
+
+dependencies {
+
+    implementation 'net.serenity-bdd:serenity-screenplay:2.1.6'
+    implementation 'net.serenity-bdd:serenity-core:2.1.6'
+    implementation 'net.serenity-bdd:serenity-cucumber:1.9.51'
+    implementation 'net.serenity-bdd:serenity-junit:2.0.70'
+    implementation 'junit:junit:4.12'
+    implementation 'com.codoid.products:fillo:1.18'
+    implementation 'org.assertj:assertj-core:3.19.0'
+    implementation 'org.slf4j:slf4j-simple:1.7.7'
+    implementation 'org.apache.logging.log4j:log4j-core:2.6.1'
+    implementation 'net.serenity-bdd:serenity-screenplay-rest:2.1.10'
+    
+}
+
+group = 'org.sophos.qa.automation'
+version = '0.0.1-SNAPSHOT'
+description = 'tottus'
+java.sourceCompatibility = JavaVersion.VERSION_1_8
+gradle.startParameter.continueOnFailure = true   
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            from(components.java)
+        }
+    }
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
