@@ -4,7 +4,7 @@ Prueba automatizada para la aplicación web tuttos y consumo de servicio web con
 
 ## Descripción:
 
-Esta solución ha sido diseñada como parte del proceso de selección de la empresa Sophos Solutions, basicamente encontrara dos escenarios, el primero consiste en agregar un producto al carrito de compras y el segundo consiste en validar la respuesta a una petición realizada a un servicio Rest. la solución tiene un enfoque de escalabilidad por medio de un dataDriven gestionado por documentos de Excel para cada escenario.
+Esta solución ha sido diseñada como parte del proceso de selección de la empresa Sophos Solutions, basicamente encontrara dos escenarios, el primero consiste en agregar un producto al carrito de compras y el segundo consiste en validar la respuesta de una petición realizada a un servicio Rest. la solución tiene un enfoque de escalabilidad por medio de un dataDriven gestionado por documentos de Excel para cada escenario.
 
 ## Tabla de contenido:
 
