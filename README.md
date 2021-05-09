@@ -8,10 +8,10 @@ Esta solución ha sido diseñada como parte del proceso de selección de la empr
 
 ## Tabla de contenido:
 
-> Cómo instalar?.
-> Cómo usar?.
-> Cómo ver el reporte generado?
-> Tecnologías utilizadas.
+> * Cómo instalar?.
+> * Cómo usar?.
+> * Cómo ver el reporte generado?
+> * Tecnologías utilizadas.
 
 ## Cómo instalar?
 
