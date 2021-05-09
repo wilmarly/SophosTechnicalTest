@@ -17,21 +17,21 @@ Programa en JAVA que permite crear, consultar, editar y eliminar clientes a trav
 > * Tecnologías utilizadas.
 > * Progama por consola para crear, consultar, editar y eliminar clientes.
 
-## **Cómo instalar?**
+## **¿Cómo instalar?**
 
 Descargue o clone el proyecto, una vez descargado inicie el cmd apuntando al directorio del proyecto y ejecute la siguiente linea de codigo.
 ```
 $ gradle clean build -x test
 ```
 
-## **Cómo usar?**
+## **¿Cómo usar?**
 Antes de iniciar la ejecución del robot dirijase a los archivos excel donde podra parametrizar los datos con los cuales se van a ejecutar los escenarios de prueba, la ruta es:
 ```
  \\SophosSolutions\tottusAutomation\src\test\resources\datadriven
 ```
 Tenga en cuenta que por cada linea agregada en el archivo Excel se va a ejecutar el escenario de prueba con los datos ingresados en dicho documento Excel.
 
-Una vez configurada la data de prueba ejecute los siguientes comando en el cmd según se reqioera 
+Una vez configurada la data de prueba ejecute los siguientes comando en el cmd según se requiera: 
 
 ### **Ejecutar todos los escenarios**
 ```
@@ -45,7 +45,7 @@ $ gradle clean -Dcucumber.options="--tags @tottusStore"
 ```
 $ gradle clean -Dcucumber.options="--tags @UsersRequest" test
 ```
-## **Cómo ver el reporte generado?**
+## **¿Cómo ver el reporte generado?**
 
 una vez finaliza la ejecución, puede consultar el archivo index.html con el reporte generado en la siguiente ruta:
 ```
@@ -71,4 +71,4 @@ Este desarrollo se encuentra en la siguiente ruta:
 Para hacer uso de este programa solo es necesario ejecutarlos como una aplicación JAVA y seguir las indicaciones que se muestran por consola
 
 
-## **¡Gracis!**
+# **¡Gracias!**
