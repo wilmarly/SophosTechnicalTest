@@ -27,7 +27,7 @@ $ gradle clean build -x test
 ## **Cómo usar?**
 Antes de iniciar la ejecución del robot dirijase a los archivos excel donde podra parametrizar los datos con los cuales se van a ejecutar os escenarios de prueba, la ruta es:
 ```
- \\tottusAutomation\src\test\resources\datadriven
+ \\SophosSolutions\tottusAutomation\src\test\resources\datadriven
 ```
 tenga en cuenta que por cada linea agregada en el archivo Excel se va a ejecutar el escenario de prueba con los datos ingresados en dicho documento Excel.
 
@@ -49,7 +49,7 @@ $ gradle clean -Dcucumber.options="--tags @UsersRequest" test
 
 una vez finaliza la ejecución, puede consultar el archivo index.html con el reporte generado en la siguiente ruta:
 ```
- \\tottusAutomation\target\site\serenity
+ \\SophosSolutions\tottusAutomation\target\site\serenity
 ```
 ## **Tecnológias utilizadas:**
 
