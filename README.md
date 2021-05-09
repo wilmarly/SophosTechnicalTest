@@ -71,4 +71,4 @@ Este desarrollo se encuentra en la siguiente ruta:
 Para hacer uso de este programa solo es necesario ejecutarlos como una aplicación JAVA y seguir las indicaciones que se muestran por consola
 
 
-### **Gracis!**
+## **¡Gracis!**
