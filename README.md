@@ -1,10 +1,13 @@
 # **SophosTechnicalTest**
 
-Prueba automatizada para la aplicación web tuttos y consumo de servicio web con RestAssured en ambos casos usando Excel.
+* Prueba automatizada para la aplicación web tuttos y consumo de servicio web con RestAssured en ambos casos usando Excel.
+* Programa en JAVA para crear, consultar, editar y eliminar clientes.
 
 ## **Descripción:**
 
 Esta solución ha sido diseñada como parte del proceso de selección de la empresa Sophos Solutions, basicamente encontrara dos escenarios, el primero consiste en agregar un producto al carrito de compras y el segundo consiste en validar la respuesta de una petición realizada a un servicio Rest. la solución tiene un enfoque de escalabilidad por medio de un dataDriven gestionado por documentos de Excel para cada escenario.
+
+Programa en JAVA que permite crear, consultar, editar y eliminar clientes a traves de la consola.
 
 ## **Tabla de contenido:**
 
@@ -12,6 +15,7 @@ Esta solución ha sido diseñada como parte del proceso de selección de la empr
 > * Cómo usar?.
 > * Cómo ver el reporte generado?
 > * Tecnologías utilizadas.
+> * Progama por consola para crear, consultar, editar y eliminar clientes.
 
 ## **Cómo instalar?**
 
@@ -57,6 +61,14 @@ una vez finaliza la ejecución, puede consultar el archivo index.html con el rep
 * Screenplay pattern
 * Gherkin
 * JAVA
+
+## **Progama por consola para crear, consultar, editar y eliminar clientes.**
+
+Este desarrollo se encientra en la siguiente ruta:
+ ```
+ \\SophosSolutions\TechnicalTestSophos
+```
+Para hacer uso de este programa solo es necesario ejecutarlos como una aplicaciín JAVA y seguir las indicacióines que se muestran por consola
 
 
 ### **Gracais!**
