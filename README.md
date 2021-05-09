@@ -1,6 +1,6 @@
 # SophosTechnicalTest
 
-Prueba automatizada para la aplicación web tuttos y consumo de servicio web con RestAssured usando Excel
+Prueba automatizada para la aplicación web tuttos y consumo de servicio web con RestAssured en ambos casos usando Excel.
 
 ## Descripción:
 
