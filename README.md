@@ -11,37 +11,37 @@ Programa en JAVA que permite crear, consultar, editar y eliminar clientes a trav
 
 ## **Tabla de contenido:**
 
-> * Cómo instalar?.
-> * Cómo usar?.
-> * Cómo ver el reporte generado?
+> * ¿Cómo instalar?.
+> * ¿Cómo usar?.
+> * ¿Cómo ver el reporte generado?
 > * Tecnologías utilizadas.
 > * Progama por consola para crear, consultar, editar y eliminar clientes.
 
 ## **Cómo instalar?**
 
-Descargue o clone el proyecto, una ves degargado inicie el cmd apuntando al directorio del proyecto y ejecute la siguiente linea de codigo.
+Descargue o clone el proyecto, una vez descargado inicie el cmd apuntando al directorio del proyecto y ejecute la siguiente linea de codigo.
 ```
 $ gradle clean build -x test
 ```
 
 ## **Cómo usar?**
-Antes de iniciar la ejecución del robot dirijase a los archivos excel donde podra parametrizar los datos con los cuales se van a ejecutar os escenarios de prueba, la ruta es:
+Antes de iniciar la ejecución del robot dirijase a los archivos excel donde podra parametrizar los datos con los cuales se van a ejecutar los escenarios de prueba, la ruta es:
 ```
  \\SophosSolutions\tottusAutomation\src\test\resources\datadriven
 ```
-tenga en cuenta que por cada linea agregada en el archivo Excel se va a ejecutar el escenario de prueba con los datos ingresados en dicho documento Excel.
+Tenga en cuenta que por cada linea agregada en el archivo Excel se va a ejecutar el escenario de prueba con los datos ingresados en dicho documento Excel.
 
-una ves configurada la data de prueba ejecute los siguientes comando en el cmd según se reqioera 
+Una vez configurada la data de prueba ejecute los siguientes comando en el cmd según se reqioera 
 
 ### **Ejecutar todos los escenarios**
 ```
 $ gradle clean test aggregate
 ```
-### **Ejecutar unicamente los escenarios web**
+### **Ejecutar únicamente los escenarios web**
 ```
 $ gradle clean -Dcucumber.options="--tags @tottusStore"
 ```
-### **Ejecutar unicamente el escenario REST**
+### **Ejecutar únicamente el escenario REST**
 ```
 $ gradle clean -Dcucumber.options="--tags @UsersRequest" test
 ```
@@ -53,7 +53,7 @@ una vez finaliza la ejecución, puede consultar el archivo index.html con el rep
 ```
 ## **Tecnológias utilizadas:**
 
-* Gradle
+* Gradle Versión 7.0
 * Excel
 * Serenuty BDD
 * Cucumber
@@ -62,13 +62,13 @@ una vez finaliza la ejecución, puede consultar el archivo index.html con el rep
 * Gherkin
 * JAVA
 
-## **Progama por consola para crear, consultar, editar y eliminar clientes.**
+## **Programa por consola para crear, consultar, editar y eliminar clientes.**
 
-Este desarrollo se encientra en la siguiente ruta:
+Este desarrollo se encuentra en la siguiente ruta:
  ```
  \\SophosSolutions\TechnicalTestSophos
 ```
-Para hacer uso de este programa solo es necesario ejecutarlos como una aplicaciín JAVA y seguir las indicacióines que se muestran por consola
+Para hacer uso de este programa solo es necesario ejecutarlos como una aplicación JAVA y seguir las indicaciones que se muestran por consola
 
 
-### **Gracais!**
+### **Gracis!**
