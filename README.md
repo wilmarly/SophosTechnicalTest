@@ -19,7 +19,7 @@ Programa en JAVA que permite crear, consultar, editar y eliminar clientes a trav
 
 ## **¿Cómo instalar?**
 
-Descargue o clone el proyecto, una vez descargado inicie el cmd apuntando al directorio del proyecto y ejecute la siguiente linea de codigo.
+Descargue o clone el proyecto, una vez descargado inicie el cmd apuntando al directorio del proyecto y ejecute la siguiente línea de código.
 ```
 $ gradle clean build -x test
 ```
@@ -29,7 +29,7 @@ Antes de iniciar la ejecución del robot dirijase a los archivos excel donde pod
 ```
  \\SophosSolutions\tottusAutomation\src\test\resources\datadriven
 ```
-Tenga en cuenta que por cada linea agregada en el archivo Excel se va a ejecutar el escenario de prueba con los datos ingresados en dicho documento Excel.
+Tenga en cuenta que por cada línea agregada en el archivo Excel se va a ejecutar el escenario de prueba con los datos ingresados en dicho documento Excel.
 
 Una vez configurada la data de prueba ejecute los siguientes comando en el cmd según se requiera: 
 
