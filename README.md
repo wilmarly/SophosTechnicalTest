@@ -8,10 +8,10 @@ Esta solución ha sido diseñada como parte del proceso de selección de la empr
 
 ## Tabla de contenido:
 
->Cómo instalar?.
->Cómo usar?.
->Cómo ver el reporte generado?
->Tecnologías utilizadas.
+> Cómo instalar?.
+> Cómo usar?.
+> Cómo ver el reporte generado?
+> Tecnologías utilizadas.
 
 ## Cómo instalar?
 
@@ -44,14 +44,14 @@ $ \\tottusAutomation\target\site\serenity
 
 ## Tecnológias utilizadas:
 
-*Gradle
-*Excel
-*Serenuty BDD
-*Cucumber
-*JUnit
-*Screenplay pattern
-*Gherkin
-*JAVA
+* Gradle
+* Excel
+* Serenuty BDD
+* Cucumber
+* JUnit
+* Screenplay pattern
+* Gherkin
+* JAVA
 
 
 Gracais!
