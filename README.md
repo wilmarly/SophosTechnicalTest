@@ -23,7 +23,7 @@ $ gradle clean build -x test
 ## **Cómo usar?**
 Antes de iniciar la ejecución del robot dirijase a los archivos excel donde podra parametrizar los datos con los cuales se van a ejecutar os escenarios de prueba, la ruta es:
 ```
-$ \\tottusAutomation\src\test\resources\datadriven
+ \\tottusAutomation\src\test\resources\datadriven
 ```
 tenga en cuenta que por cada linea agregada en el archivo Excel se va a ejecutar el escenario de prueba con los datos ingresados en dicho documento Excel.
 
@@ -31,21 +31,21 @@ una ves configurada la data de prueba ejecute los siguientes comando en el cmd s
 
 ### **Ejecutar todos los escenarios**
 ```
-$gradle clean test aggregate
+$ gradle clean test aggregate
 ```
 ### **Ejecutar unicamente los escenarios web**
 ```
-$gradle clean -Dcucumber.options="--tags @tottusStore"
+$ gradle clean -Dcucumber.options="--tags @tottusStore"
 ```
 ### **Ejecutar unicamente el escenario REST**
 ```
-$gradle clean -Dcucumber.options="--tags @UsersRequest" test
+$ gradle clean -Dcucumber.options="--tags @UsersRequest" test
 ```
 ## **Cómo ver el reporte generado?**
 
 una vez finaliza la ejecución, puede consultar el archivo index.html con el reporte generado en la siguiente ruta:
 ```
-$ \\tottusAutomation\target\site\serenity
+ \\tottusAutomation\target\site\serenity
 ```
 ## **Tecnológias utilizadas:**
 
